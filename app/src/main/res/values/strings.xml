@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Plants_Apps_Candra</string>
+<!--    <string name="signup_text"><b>Don\'t have an account ? <u><font color='#1B5E20'>Sign Up</font></u></b></string>-->
+    <string name="register_text"><center><b><font color='#1B5E20'>By signing you agree to our</font> Team of use\n<font color='#1B5E20'>and</font> privacy notice</b></center></string>
+    <string name="dont_account">Don\'t have an account ?</string>
+    <string name="sign_up"><font color='#426D53'><u>Sign Up</u></font></string>
+    <string name="have_account">Do you have an account ?</string>
+    <string name="log_in"><font color='#426D53'><u>Login</u></font></string>
+</resources>

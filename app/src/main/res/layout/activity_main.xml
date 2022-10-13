@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity1"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:padding="13dp"
+        android:backgroundTint="#529C82"
+        android:letterSpacing="-0.03"
+        app:cornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsignup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="13dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Sign Up"
+        android:textColor="#769582"
+        android:textAllCaps="false"
+        android:letterSpacing="-0.03"
+        android:backgroundTint="#FEFEFE"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        />
+
+    <TextView
+        android:id="@+id/tv_your_plants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="your plants"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:letterSpacing="-0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnsignup"
+        />
+
+    <TextView
+        android:id="@+id/tv_app_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="app for"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:letterSpacing="-0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_your_plants"
+        />
+
+    <TextView
+        android:id="@+id/tv_the_best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="The Best"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:letterSpacing="-0.03"
+        app:layout_constraintBottom_toTopOf="@+id/tv_app_for"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
